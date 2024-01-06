@@ -5,3 +5,6 @@ from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 
 openai.api_key  = os.getenv('OPENAI_API_KEY')
+
+you cannot create Jupyter Notebooks via GitHub UI unless you enter the whole JSON as text into an empty script.
+What you can do instead is to create a notebook on your local Jupyter and push it to your repository.
